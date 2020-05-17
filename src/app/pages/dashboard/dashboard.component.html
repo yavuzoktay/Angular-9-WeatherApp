@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>WeatherApp</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Pragati+Narrow:wght@700&family=Radley&family=Roboto:wght@100&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <div id="page-container">
+    <h1 *ngIf="!this.showSpinner">Wearco.</h1>
+    <div class="container" [hidden]="!this.isPageHidden">
+      <div class="seasonItem">
+        <img [src]="this.imageItem" alt="" height="40" />
+        <p class="seasonText">{{ this.seasonText }}</p>
+      </div>
+      <div class="verticalLine"></div>
+      <span>{{ this.tempCelc }}</span>
+      <div class="ellipse"></div>
+      <p class="dayAndTime">{{ this.dayString }}, {{ this.time }}</p>
+      <p class="cityName">{{ this.cityName }}</p>
+    </div>
+    <app-weather [hidden]="!this.isPageHidden"></app-weather>
+    <!-- <app-footer [hidden]="!this.isPageHidden"></app-footer> -->
+    <app-loading-spinner *ngIf="this.showSpinner"></app-loading-spinner>
+  </div>
+</body>
+
+</html>

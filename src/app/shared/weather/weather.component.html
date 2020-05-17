@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <div id="page-container" [hidden]="!this.isShowPage">
+    <div class="container">
+      <ul>
+        <div *ngFor="let item of weatherCard.date">
+          <h1>{{item}}</h1>
+          <div class="ellipse"></div>
+        </div>
+      </ul>
+    </div>
+    <div class="tempItem">
+      <ul>
+        <li *ngFor="let item of weatherCard.temp">
+          <h1>{{item}}</h1>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+</body>
+
+</html>

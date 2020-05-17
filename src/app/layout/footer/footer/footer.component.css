@@ -1,0 +1,20 @@
+footer {
+  position: absolute;
+  width: 100%;
+}
+
+.footer-content {
+  text-align: center;
+  color: white;
+  background-color: #232831;
+  padding: 20px 15px 20px 15px;
+}
+
+.footer-content:first-child {
+  word-wrap: break-word;
+}
+
+a {
+  color: #21afdd;
+  text-decoration: none;
+}

@@ -1,27 +1,42 @@
-# WeatherApp
+<h1 align="center">Welcome to Angular App Dashboard Angular 9 👋</h1>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.3.
+## Screenshot
 
-## Development server
+<img alt="Weather App 1" src="assets/images/weatherAppScreenshot.png" />
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Build the Angular project
 
-## Code scaffolding
+```sh
+npm install
+```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```sh
+ng build
+```
 
-## Build
+## Run the Angular Project
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+```sh
+npm install
+```
 
-## Running unit tests
+```sh
+ng serve
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+# Resources
 
-## Running end-to-end tests
+* https://openweathermap.org/api
+* https://tobiasahlin.com/spinkit/
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Author
 
-## Further help
+👤 **Yavuz Oktay**
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+* Github: [@OssamaRafique](https://github.com/yavuzoktay)
+
+## Licence
+
+<p>
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+</p>
