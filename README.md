@@ -29,7 +29,7 @@ ng serve
 
 👤 **Yavuz Oktay**
 
-- Github: [@OssamaRafique](https://github.com/yavuzoktay)
+- Github: [@YavuzOktay](https://github.com/yavuzoktay)
 
 ## Licence
 
