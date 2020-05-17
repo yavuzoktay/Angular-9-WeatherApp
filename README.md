@@ -26,14 +26,14 @@ ng serve
 
 # Resources
 
-* https://openweathermap.org/api
-* https://tobiasahlin.com/spinkit/
+- https://openweathermap.org/api
+- https://tobiasahlin.com/spinkit/
 
 ## Author
 
 👤 **Yavuz Oktay**
 
-* Github: [@OssamaRafique](https://github.com/yavuzoktay)
+- Github: [@OssamaRafique](https://github.com/yavuzoktay)
 
 ## Licence
 
