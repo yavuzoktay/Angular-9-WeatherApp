@@ -1,9 +1,5 @@
 <h1 align="center">Welcome to Angular App Dashboard Angular 9 👋</h1>
 
-## Screenshot
-
-<img alt="Weather App 1" src="assets/images/weatherAppScreenshot.png" />
-
 ## Build the Angular project
 
 ```sh
